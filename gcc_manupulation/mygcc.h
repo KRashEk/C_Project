@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <time.h>
+#include <sys/stat.h>
+//char *p=NULL;
+void hypens(char*,char*);
+void hypenc(char*,char*);
+void nooption(char*,char*);
+int l,d;
+#include <unistd.h>
+#include <signal.h>
+#include <fcntl.h>
+int filestat(char*,char*);
+void buildlog(char*,int);
+int filestat(char*,char*);
+void error();
+char str[200],bstring[200],cret[200];
+int a,i,s,d,fd,f;
+struct stat sb;
+void myprocess(char*);

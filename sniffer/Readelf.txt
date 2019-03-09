@@ -1,0 +1,6 @@
+writing own packet sniffer.
+
+capture packects from live network card.
+
+work remaining..........
+ 
